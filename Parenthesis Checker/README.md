@@ -10,7 +10,7 @@ A function that checks if the parentheses in an expression are organized correct
     There are no other correct expressions.
 
 The solution uses std::stack from the STL and includes helper functions. The code is split into the following files:
-
+```
     CMakeLists.txt
 src:
     application.cpp
@@ -18,7 +18,7 @@ src:
     solution.h
 test:
     solution.cpp
-    
+```    
 ## Usage
 
 Use the isCorrect function to check if an expression's parentheses are organized correctly. The function has the following prototype:
