@@ -17,3 +17,16 @@ can be represented by an RLE as the row
 
 The RleString class represents a string of characters of type char encoded by RLE. Internally, the class stores the information in a linked list, where each node corresponds to one pair of the RLE string. The class implements several methods to manipulate the RLE-encoded string, such as insert, remove, and concatenate.
 The description of the RleString class interface can be found in the RleString.h file.
+
+### Usage
+To build the project:
+```
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+To run tests:
+```
+ctest
+```
