@@ -34,3 +34,16 @@ if (isCorrect(expression)) {
     std::cout << "Expression is incorrect." << std::endl;
 }
 ```
+
+### Usage
+To build the project:
+```
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+To run tests:
+```
+ctest
+```
