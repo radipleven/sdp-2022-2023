@@ -1,24 +1,27 @@
 #include "RleString.h"
 
-// TODO Write your implementation here
-
-
+// Constructor to initialize an empty RleString
 RleString::RleString()
 {
+    // head and tail pointers are set to null
     head = nullptr;
     tail = nullptr;
 }
 
+// Function to push a symbol and its count to the end of the string
 void RleString::push_back(const char symbol,const size_t counter)
 {
+    // Create a new node with the symbol and count
     Node* newNode = new Node(symbol,counter);
 
+    // If the list is empty, set head and tail to the new node
     if (head == nullptr)
     {
         head = tail = newNode;
         return;
     }
 
+    // Add the new node to the end of the list
     tail->next = newNode;
     tail = newNode;
 }
