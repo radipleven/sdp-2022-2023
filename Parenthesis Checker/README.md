@@ -34,15 +34,15 @@ if (isCorrect(expression)) {
     std::cout << "Expression is incorrect." << std::endl;
 }
 ```
-###
-To build the project:
+
+#### To build the project:
 ```
 mkdir build
 cd build
 cmake ..
 cmake --build .
 ```
-To run tests:
+#### To run tests:
 ```
 ctest
 ```
