@@ -26,11 +26,13 @@ void RleString::push_back(const char symbol,const size_t counter)
     tail = newNode;
 }
 
+// Function to copy data from another RleString
 void RleString::copyFrom(const RleString &other)
 {
-    
+    // An iterator to traverse through the other RleString
     Node *itterator = other.head;
 
+    // Push each symbol and count to the end of this RleString
     while (itterator)
     {
         push_back(itterator->symbol,itterator->count);
@@ -38,10 +40,13 @@ void RleString::copyFrom(const RleString &other)
     }
 }
 
+// Function to free memory allocated by the list
 void RleString::free()
 {
     
+    // An iterator to traverse through the list
     Node *itterator = head;
+    // Delete each node in the list
     while (itterator)
     {
         Node *toDelete = itterator; 
@@ -50,7 +55,7 @@ void RleString::free()
         delete toDelete; 
     }
     
-
+    // Set head and tail to null
     head = tail = nullptr;
     
 }
