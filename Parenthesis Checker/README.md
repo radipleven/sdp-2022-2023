@@ -11,11 +11,13 @@ A function that checks if the parentheses in an expression are organized correct
 
 The solution uses std::stack from the STL and includes helper functions. The code is split into the following files:
 
+    CMakeLists.txt
+src:
     application.cpp
     solution.cpp
     solution.h
-    CMakeLists.txt
-    unit_tests.cpp
+test:
+    solution.cpp
     
 ## Usage
 
