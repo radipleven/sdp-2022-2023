@@ -34,8 +34,7 @@ if (isCorrect(expression)) {
     std::cout << "Expression is incorrect." << std::endl;
 }
 ```
-
-### Usage
+###
 To build the project:
 ```
 mkdir build
