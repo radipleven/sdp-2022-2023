@@ -31,3 +31,14 @@ the function throws an exception of type `std::bad_alloc`.
 * `std::vector<T> level(const Node<T>* rootptr, int level)`: Returns all elements of the binary tree with root rootptr that are at level level in a dynamic array ordered from left to right.
 
 ## Building and Testing
+To build the project:
+```
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+To run tests:
+```
+ctest
+```
