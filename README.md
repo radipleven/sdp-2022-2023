@@ -10,7 +10,7 @@ A program that implements a Binary Tree data structure with common operations su
 A simple implementation of a linked list.
 
 
-## Parenthesis Checker 
+## Parentheses Checker 
 A program to check if a given string of parentheses is balanced or not using stack.
 
 ## RLE String
