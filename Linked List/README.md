@@ -17,18 +17,7 @@
 
 ## Usage
 
-```
-#include "LinkedList.h"
-#include <iostream>
+To build the file navigate to the folder where ```LinkedList.cpp```, ```LinkedList.h``` and ```main.cpp`` are located and use the ```make``` command to build and ```make clear``` to clear the created files.
 
-int main() {
-    LinkedList<int> ll;
-    ll.insertAtPos(1);
-    ll.insertAtPos(2, 1);
-    std::cout << "List size: " << ll.getSize() << '\n';
-    std::cout << "Element at position 0: " << ll.getElementAtPos(0) << '\n';
-    return 0;
-}
-```
 ## Note
 More functions need to be implemented. This is not a finished version.
