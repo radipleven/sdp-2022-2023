@@ -1,4 +1,4 @@
-# RLE Encoding and Decoding
+# Run Length Encoding and Decoding
 
 This repository implements a [Run-Length Encoding (RLE)](https://en.wikipedia.org/wiki/Run-length_encoding) compression and decompression solution using [linked lists](https://en.wikipedia.org/wiki/Linked_list).
 
