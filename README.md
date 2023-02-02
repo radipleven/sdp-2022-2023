@@ -14,7 +14,7 @@ A simple implementation of a linked list.
 A program to check if a given string of parentheses is balanced or not using stack.
 
 ## RLE String
-A program that implements Run Length Encoding for a given string.
+A program that implements Run Length Encoding for a given string using Linked List.
 
 
 ## random
