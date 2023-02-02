@@ -1,3 +1,5 @@
+#include "LinkedList.h"
+
 template <class T>
 LinkedList<T>::LinkedList() : front(nullptr), size(0) {}
 
