@@ -18,7 +18,7 @@
 ## Usage
 
 ```
-#include "LinkedList.hpp"
+#include "LinkedList.h"
 #include <iostream>
 
 int main() {
