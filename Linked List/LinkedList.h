@@ -1,3 +1,8 @@
+
+#pragma once
+#include <iostream>
+
+
 template <class T>
 class LinkedList {
     private:
@@ -11,8 +16,9 @@ class LinkedList {
         size_t size;
     public:
         LinkedList();
-        ~LinkedList();
         LinkedList(const LinkedList<T>& other);
+        ~LinkedList();
+
         bool operator==(const LinkedList<T>& other) const;
         LinkedList<T>& operator=(const LinkedList<T>& other);
         void insertAtPos(T a, std::size_t pos = 0);
@@ -20,5 +26,7 @@ class LinkedList {
         void removeAtPos(std::size_t pos);
         const T& getElementAtPos(unsigned pos);
         T& top() const;
+
+        std::size_t getSize();
         void sort();
 };

@@ -146,18 +146,20 @@ const T& LinkedList<T>::getElementAtPos(unsigned pos) {
 
 template <typename T>
 T& LinkedList<T>::top() const {
-        }
-		std::size_t getSize() {
+    if (front == nullptr) {
+        throw std::runtime_error("List is empty");
+    }
+    return front->data;
+}
 
-            std::size_t count = 0;
-            Node<T> *temp = front;
-            while (temp != nullptr) {
-                ++count;
-                temp = temp->next;
-            }
-            return count;
 
-        }
+template <typename T>
+std::size_t LinkedList<T>::getSize() {
+
+    
+    return this->size;
+
+}
 template <typename T>
 void LinkedList<T>::sort() { // sort based on operator <
         }
