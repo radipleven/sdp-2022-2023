@@ -12,4 +12,13 @@ class LinkedList {
     public:
         LinkedList();
         ~LinkedList();
+        LinkedList(const LinkedList<T>& other);
+        bool operator==(const LinkedList<T>& other) const;
+        LinkedList<T>& operator=(const LinkedList<T>& other);
+        void insertAtPos(T a, std::size_t pos = 0);
+        void reverse();
+        void removeAtPos(std::size_t pos);
+        const T& getElementAtPos(unsigned pos);
+        T& top() const;
+        void sort();
 };
