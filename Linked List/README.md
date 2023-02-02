@@ -17,7 +17,7 @@
 
 ## Usage
 
-To build the file navigate to the folder where ```LinkedList.cpp```, ```LinkedList.h``` and ```main.cpp`` are located and use the ```make``` command to build and ```make clear``` to clear the created files.
+To build the file navigate to the folder where ```LinkedList.cpp```, ```LinkedList.h``` and ```main.cpp``` are located and use the ```make``` command to build and ```make clear``` to clear the created files.
 
 ## Note
 More functions need to be implemented. This is not a finished version.
