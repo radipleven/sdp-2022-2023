@@ -7,7 +7,7 @@
     * removeAtPos(std::size_t pos): Removes an element at a given position.
     * getElementAtPos(unsigned pos): Returns the element at a given position.
     * getSize(): Returns the number of elements in the linked list.
-    * sort(): Sorts the elements in the linked list based on the operator <.
+    * sort(): Sorts the elements in the linked list based on the operator <. //TODO
     
 * Class also has the following operators:
     ** operator==(const LinkedList<T>& other)
