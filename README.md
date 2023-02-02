@@ -11,7 +11,7 @@ A simple implementation of a linked list.
 
 
 ## Parenthesis Checker 
-A program to check if a given string of parentheses is balanced or not.
+A program to check if a given string of parentheses is balanced or not using stack.
 
 ## RLE String
 A program that implements Run Length Encoding for a given string.
