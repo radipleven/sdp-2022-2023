@@ -10,9 +10,9 @@
     * sort(): Sorts the elements in the linked list based on the operator <. //TODO
     
 * Class also has the following operators:
-    ** operator==(const LinkedList<T>& other)
-    ** operator=(const LinkedList<T>& other)
-    * Iterator class to traverse the linked list.
+    * operator==(const LinkedList<T>& other)
+    * operator=(const LinkedList<T>& other)
+    * Iterator class to traverse the linked list. //TODO
     * Exception handling using out_of_range.
 
 ## Usage
