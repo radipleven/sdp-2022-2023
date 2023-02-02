@@ -1,7 +1,7 @@
 # Binary Tree 
 
-This repository provides the functionality of creating, manipulating and checking binary trees. It includes the following features:
-* Creation of a weight-balanced binary ordered tree
+This repository provides the functionality of creating, manipulating and checking [binary trees](https://en.wikipedia.org/wiki/Binary_search_tree). It includes the following features:
+* Creation of a [weight-balanced](https://en.wikipedia.org/wiki/Weight-balanced_tree) binary ordered tree
 * Check for balance of a binary tree
 * Check for ordering of a binary tree
 * Release memory of a binary tree
