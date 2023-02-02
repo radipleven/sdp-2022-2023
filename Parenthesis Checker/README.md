@@ -1,4 +1,4 @@
-# Parenthesis Checker
+# Parentheses Checker
 
 A function that checks if the parentheses in an expression are organized correctly. The definition of a correct expression is as follows:
 
