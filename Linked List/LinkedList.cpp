@@ -156,7 +156,7 @@ T& LinkedList<T>::top() const {
     if (front == nullptr) {
         throw std::runtime_error("List is empty");
     }
-    return front->data;
+    return front->key;
 }
 
 
