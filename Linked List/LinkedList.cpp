@@ -23,6 +23,13 @@ LinkedList<T>::LinkedList(const LinkedList<T>& other) {
     }
 };
 
+template <typename T>
+template <typename G>
+bool LinkedList<T>::Node<G>::operator<(const Node<G>& other) const {
+    return this->key < other.key;
+}
+
+
 template <class T>
 bool LinkedList<T>::operator==(const LinkedList<T>& other) const {
     if (size != other.size) {
@@ -161,5 +168,18 @@ std::size_t LinkedList<T>::getSize() {
 
 }
 template <typename T>
-void LinkedList<T>::sort() { // sort based on operator <
+void LinkedList<T>::sort() {
+    Node<T>* current = front;
+    while (current->next != nullptr) {
+        Node<T>* runner = current->next;
+        while (runner != nullptr) {
+            if (current->key > runner->key) {
+                T temp = current->key;
+                current->key = runner->key;
+                runner->key = temp;
+            }
+            runner = runner->next;
         }
+        current = current->next;
+    }
+}

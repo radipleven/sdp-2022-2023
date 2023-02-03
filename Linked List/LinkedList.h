@@ -3,14 +3,15 @@
 #include <iostream>
 
 
-template <class T>
+template <typename T>
 class LinkedList {
     private:
-        template <class G>
+        template <typename G>
         struct Node {
             G key;
             Node<G>* next;
             Node(G key) : key(key), next(nullptr){};
+            bool operator<(const Node<G>& other) const;
         };
         Node<T>* front;
         size_t size;

@@ -1,15 +1,16 @@
 #include "LinkedList.cpp"
 #include <iostream>
 
-int main()
-{
+int main() {
     LinkedList<int> list;
-    list.insertAtPos(5);
     list.insertAtPos(10);
-    list.insertAtPos(15, 1);
-    list.reverse();
-    std::cout << "Element at position 0: " << list.getElementAtPos(0) << std::endl;
-    std::cout << "Element at position 1: " << list.getElementAtPos(1) << std::endl;
-    std::cout << "Element at position 2: " << list.getElementAtPos(2) << std::endl;
+    list.insertAtPos(30);
+    list.insertAtPos(20);
+    list.insertAtPos(40);
+    list.sort();
+    for (std::size_t i = 0; i < list.getSize(); i++) {
+        std::cout << list.getElementAtPos(i) << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }
