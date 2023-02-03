@@ -1,45 +1,45 @@
 #include <gtest/gtest.h>
 #include "LinkedList.cpp"
 
-TEST(LinkedListTest, insertAtPosTest) {
-    LinkedList<int> list;
 
-    // Insert element at position 0 (front of list)
+
+TEST(LinkedListTest, InsertAtPos) {
+    LinkedList<int> list;
+    list.insertAtPos(3);
+    list.insertAtPos(2, 0);
     list.insertAtPos(1, 0);
     EXPECT_EQ(list.getElementAtPos(0), 1);
-
-    // Insert element at position 1 (middle of list)
-    list.insertAtPos(2, 1);
     EXPECT_EQ(list.getElementAtPos(1), 2);
-
-    // Insert element at position 2 (end of list)
-    list.insertAtPos(3, 2);
     EXPECT_EQ(list.getElementAtPos(2), 3);
-
-    // Insert element at default position 0 (front of list)
-    list.insertAtPos(0);
-    EXPECT_EQ(list.getElementAtPos(0), 0);
-}
-TEST(LinkedListTest, testInsertAtPos) {
-    LinkedList<int> ll;
-    ll.insertAtPos(10);
-    ll.insertAtPos(20, 1);
-    ll.insertAtPos(30, 1);
-
-    ASSERT_EQ(ll.getElementAtPos(0), 10);
-    ASSERT_EQ(ll.getElementAtPos(1), 30);
-    ASSERT_EQ(ll.getElementAtPos(2), 20);
 }
 
-TEST(LinkedListTest, testRemoveAtPos) {
-    LinkedList<int> ll;
-    ll.insertAtPos(10);
-    ll.insertAtPos(20, 1);
-    ll.insertAtPos(30, 1);
-    ll.removeAtPos(1);
+TEST(LinkedListTest, RemoveAtPos) {
+    LinkedList<int> list;
+    list.insertAtPos(3);
+    list.insertAtPos(2);
+    list.insertAtPos(1);
+    list.removeAtPos(1);
+    EXPECT_EQ(list.getElementAtPos(0), 1);
+    EXPECT_EQ(list.getElementAtPos(1), 3);
+}
 
-    ASSERT_EQ(ll.getElementAtPos(0), 10);
-    ASSERT_EQ(ll.getElementAtPos(1), 20);
+TEST(LinkedListTest, Reverse) {
+    LinkedList<int> list;
+    list.insertAtPos(3);
+    list.insertAtPos(2);
+    list.insertAtPos(1);
+    list.reverse();
+    EXPECT_EQ(list.getElementAtPos(0), 3);
+    EXPECT_EQ(list.getElementAtPos(1), 2);
+    EXPECT_EQ(list.getElementAtPos(2), 1);
+}
+
+TEST(LinkedListTest, GetSize) {
+    LinkedList<int> list;
+    list.insertAtPos(3);
+    list.insertAtPos(2);
+    list.insertAtPos(1);
+    EXPECT_EQ(list.getSize(), 3);
 }
 
 TEST(LinkedListTest, testGetElementAtPos) {
@@ -62,14 +62,29 @@ TEST(LinkedListTest, testTop) {
     ASSERT_EQ(ll.top(), 10);
 }
 
-TEST(LinkedListTest, testGetSize) {
-    LinkedList<int> ll;
-    ll.insertAtPos(10);
-    ll.insertAtPos(20, 1);
-    ll.insertAtPos(30, 1);
+TEST(LinkedListTest, EqualityOperatorTest) {
+  LinkedList<int> list1, list2;
+  
+  // Test 1: Check equality of empty lists
+  EXPECT_TRUE(list1 == list2);
 
-    ASSERT_EQ(ll.getSize(), 3);
+  // Test 2: Check equality of non-empty lists with same values
+  list1.insertAtPos(0, 1);
+  list1.insertAtPos(1, 2);
+  list1.insertAtPos(2, 3);
+
+  list2.insertAtPos(0, 1);
+  list2.insertAtPos(1, 2);
+  list2.insertAtPos(2, 3);
+
+  EXPECT_TRUE(list1 == list2);
+
+  // Test 3: Check inequality of non-empty lists with different values
+  list2.insertAtPos(2, 4);
+  EXPECT_FALSE(list1 == list2);
 }
+
+
 int main(int argc, char** argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
