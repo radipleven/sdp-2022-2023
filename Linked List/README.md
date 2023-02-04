@@ -14,10 +14,8 @@ The linked list is implemented as a class LinkedList and its elements are stored
     * ```getSize```: a function to get the size of the linked list
     * ```sort```: a function to sort the linked list
     
-* Iterator class also has the following operators: //TODO
-    
-    * Iterator class to traverse the linked list. 
-    * Exception handling using out_of_range.
+* Iterator class to traverse the linked list. //TODO
+   
 
 ## Usage
 
