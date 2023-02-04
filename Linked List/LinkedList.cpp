@@ -169,17 +169,14 @@ std::size_t LinkedList<T>::getSize() {
 }
 template <typename T>
 void LinkedList<T>::sort() {
-    Node<T>* current = front;
-    while (current->next != nullptr) {
-        Node<T>* runner = current->next;
-        while (runner != nullptr) {
-            if (current->key > runner->key) {
-                T temp = current->key;
-                current->key = runner->key;
-                runner->key = temp;
+    for (Node<T>* i = front; i != nullptr; i = i->next) {
+        for (Node<T>* j = i->next; j != nullptr; j = j->next) {
+            if (i->key < j->key) {
+                T temp = i->key;
+                i->key = j->key;
+                j->key = temp;
             }
-            runner = runner->next;
         }
-        current = current->next;
     }
 }
+

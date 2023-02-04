@@ -1,17 +1,22 @@
 # Linked List
 ## Features
 
-* LinkedList class has the following functions:
-    * insertAtPos(T a, std::size_t pos = 0): Inserts an element at a given position (default is the front of the list).
-    * reverse(): Reverses the order of the elements in the linked list.
-    * removeAtPos(std::size_t pos): Removes an element at a given position.
-    * getElementAtPos(unsigned pos): Returns the element at a given position.
-    * sort(): Sorts the elements in the linked list based on the operator <. //TODO
+The linked list is implemented as a class LinkedList and its elements are stored as ```Node``` objects.
+
+* Class Members:
+    * ```front```: a pointer to the front of the linked list
+    * ```size```: an integer representing the size of the linked list
+    * ```insertAtPos```: a function to insert an element at a specified position
+    * ```removeAtPos```: a function to remove an element at a specified position
+    * ```getElementAtPos```: a function to get the element at a specified position
+    * ```reverse```: a function to reverse the linked list
+    * ```top```: a function to get the top of the linked list
+    * ```getSize```: a function to get the size of the linked list
+    * ```sort```: a function to sort the linked list
     
-* Class also has the following operators:
-    * operator==(const LinkedList<T>& other)
-    * operator=(const LinkedList<T>& other)
-    * Iterator class to traverse the linked list. //TODO
+* Iterator class also has the following operators: //TODO
+    
+    * Iterator class to traverse the linked list. 
     * Exception handling using out_of_range.
 
 ## Usage

@@ -23,11 +23,10 @@ class LinkedList {
         bool operator==(const LinkedList<T>& other) const;
         LinkedList<T>& operator=(const LinkedList<T>& other);
         void insertAtPos(T a, std::size_t pos = 0);
-        void reverse();
         void removeAtPos(std::size_t pos);
         const T& getElementAtPos(unsigned pos);
+        void reverse();
         T& top() const;
-
         std::size_t getSize();
         void sort();
 };
