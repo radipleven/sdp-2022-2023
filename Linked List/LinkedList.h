@@ -29,4 +29,5 @@ class LinkedList {
         T& top() const;
         std::size_t getSize();
         void sort();
+        int findElement(const T& key);
 };

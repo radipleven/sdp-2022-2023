@@ -13,6 +13,7 @@ The linked list is implemented as a class LinkedList and its elements are stored
     * ```top```: a function to get the top of the linked list
     * ```getSize```: a function to get the size of the linked list
     * ```sort```: a function to sort the linked list
+    * ```findElement```: a function to return the position of the desired element and -1 if the element is not in the list
     
 * Iterator class to traverse the linked list. //TODO
    

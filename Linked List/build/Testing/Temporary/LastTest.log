@@ -1,0 +1,289 @@
+Start testing: Feb 07 00:31 EET
+----------------------------------------------------------
+1/11 Testing: LinkedListTest.TestOperatorEqual
+1/11 Test: LinkedListTest.TestOperatorEqual
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.TestOperatorEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.TestOperatorEqual" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.TestOperatorEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.TestOperatorEqual
+[       OK ] LinkedListTest.TestOperatorEqual (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.TestOperatorEqual" end time: Feb 07 00:31 EET
+"LinkedListTest.TestOperatorEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: LinkedListTest.TestOperatorNotEqual
+2/11 Test: LinkedListTest.TestOperatorNotEqual
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.TestOperatorNotEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.TestOperatorNotEqual" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.TestOperatorNotEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.TestOperatorNotEqual
+[       OK ] LinkedListTest.TestOperatorNotEqual (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.TestOperatorNotEqual" end time: Feb 07 00:31 EET
+"LinkedListTest.TestOperatorNotEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: LinkedListTest.AssignmentOperatorTest
+3/11 Test: LinkedListTest.AssignmentOperatorTest
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.AssignmentOperatorTest" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.AssignmentOperatorTest" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.AssignmentOperatorTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.AssignmentOperatorTest
+[       OK ] LinkedListTest.AssignmentOperatorTest (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.AssignmentOperatorTest" end time: Feb 07 00:31 EET
+"LinkedListTest.AssignmentOperatorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: LinkedListTest.InsertAtPos
+4/11 Test: LinkedListTest.InsertAtPos
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.InsertAtPos" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.InsertAtPos" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.InsertAtPos
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.InsertAtPos
+[       OK ] LinkedListTest.InsertAtPos (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.InsertAtPos" end time: Feb 07 00:31 EET
+"LinkedListTest.InsertAtPos" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: LinkedListTest.RemoveAtPos
+5/11 Test: LinkedListTest.RemoveAtPos
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.RemoveAtPos" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.RemoveAtPos" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.RemoveAtPos
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.RemoveAtPos
+[       OK ] LinkedListTest.RemoveAtPos (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.RemoveAtPos" end time: Feb 07 00:31 EET
+"LinkedListTest.RemoveAtPos" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: LinkedListTest.testGetElementAtPos
+6/11 Test: LinkedListTest.testGetElementAtPos
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.testGetElementAtPos" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.testGetElementAtPos" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.testGetElementAtPos
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.testGetElementAtPos
+[       OK ] LinkedListTest.testGetElementAtPos (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.testGetElementAtPos" end time: Feb 07 00:31 EET
+"LinkedListTest.testGetElementAtPos" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: LinkedListTest.Reverse
+7/11 Test: LinkedListTest.Reverse
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.Reverse" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.Reverse" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.Reverse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.Reverse
+[       OK ] LinkedListTest.Reverse (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.Reverse" end time: Feb 07 00:31 EET
+"LinkedListTest.Reverse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: LinkedListTest.testTop
+8/11 Test: LinkedListTest.testTop
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.testTop" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.testTop" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.testTop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.testTop
+[       OK ] LinkedListTest.testTop (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.testTop" end time: Feb 07 00:31 EET
+"LinkedListTest.testTop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: LinkedListTest.GetSize
+9/11 Test: LinkedListTest.GetSize
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.GetSize" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.GetSize" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.GetSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.GetSize
+[       OK ] LinkedListTest.GetSize (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.GetSize" end time: Feb 07 00:31 EET
+"LinkedListTest.GetSize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: LinkedListTest.sortTest
+10/11 Test: LinkedListTest.sortTest
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.sortTest" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.sortTest" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.sortTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.sortTest
+[       OK ] LinkedListTest.sortTest (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.sortTest" end time: Feb 07 00:31 EET
+"LinkedListTest.sortTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: LinkedListTest.TestFind
+11/11 Test: LinkedListTest.TestFind
+Command: "/home/radostin/sdp/Linked List/build/LinkedListTest" "--gtest_filter=LinkedListTest.TestFind" "--gtest_also_run_disabled_tests"
+Directory: /home/radostin/sdp/Linked List/build
+"LinkedListTest.TestFind" start time: Feb 07 00:31 EET
+Output:
+----------------------------------------------------------
+Note: Google Test filter = LinkedListTest.TestFind
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinkedListTest
+[ RUN      ] LinkedListTest.TestFind
+[       OK ] LinkedListTest.TestFind (0 ms)
+[----------] 1 test from LinkedListTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinkedListTest.TestFind" end time: Feb 07 00:31 EET
+"LinkedListTest.TestFind" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 07 00:31 EET

@@ -131,6 +131,20 @@ TEST(LinkedListTest, sortTest) {
 EXPECT_TRUE(list == sortedList);
 }
 
+TEST(LinkedListTest, TestFind) {
+    LinkedList<int> ll;
+    ll.insertAtPos(1);
+    ll.insertAtPos(2);
+    ll.insertAtPos(3);
+    ll.insertAtPos(4);
+    ll.insertAtPos(5);
+
+    // Check if the find function returns the correct position of the element
+    EXPECT_EQ(ll.findElement(3), 2);
+
+    // Check if the find function returns -1 when the element is not present
+    EXPECT_EQ(ll.findElement(6), -1);
+}
 
 int main(int argc, char** argv) {
     testing::InitGoogleTest(&argc, argv);

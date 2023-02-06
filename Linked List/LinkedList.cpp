@@ -180,3 +180,17 @@ void LinkedList<T>::sort() {
     }
 }
 
+template <typename T>
+int LinkedList<T>::findElement(const T& key) {
+        Node<T>* current = front;
+        int pos = 0;
+        while (current != nullptr) {
+            if (current->key == key) 
+            {
+                return pos;
+            }
+            current = current->next;
+            pos++;
+        }
+        return -1;
+}
