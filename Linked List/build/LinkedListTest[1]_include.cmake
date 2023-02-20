@@ -1,5 +1,0 @@
-if(EXISTS "/home/radostin/sdp/Linked List/build/LinkedListTest[1]_tests.cmake")
-  include("/home/radostin/sdp/Linked List/build/LinkedListTest[1]_tests.cmake")
-else()
-  add_test(LinkedListTest_NOT_BUILT LinkedListTest_NOT_BUILT)
-endif()
